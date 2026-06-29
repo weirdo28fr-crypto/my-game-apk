@@ -1,3 +1,3 @@
 function startGame() {
-  alert("Game Started 🎮");
+  alert("Game Started 🎮 Welcome!");
 }
