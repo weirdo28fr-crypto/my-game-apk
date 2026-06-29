@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Birthday Game 🎮</title>
+  <title>Birthday Surprise Game 🎉</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1>Welcome 🎉</h1>
+  <div id="game">
 
-  <div id="scene">
-    <img id="player" src="assets/blue-character.png">
+    <h1 id="title">🎮 Birthday Adventure</h1>
+
+    <div id="scene">
+      <img id="player" src="assets/blue-character.png">
+    </div>
+
+    <div id="dialogue">
+      <p id="text">Hey... ready for your surprise? 🎁</p>
+    </div>
+
+    <div id="choices">
+      <button onclick="choice1()">Yes 😄</button>
+      <button onclick="wrongChoice()">No 😒</button>
+    </div>
+
   </div>
-
-  <button onclick="startGame()">Start</button>
 
   <script src="script.js"></script>
 
