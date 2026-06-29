@@ -23,3 +23,10 @@ function wrongChoice() {
     text.innerHTML = "Try again 😏";
   }, 2000);
 }
+
+window.onload = function () {
+  let player = document.getElementById("player");
+
+  player.style.position = "absolute";
+  player.style.left = "200px";
+};
